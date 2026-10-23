@@ -3,10 +3,10 @@ name: Release to JitPack
 on:
   workflow_dispatch:
   push:    
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   call-release:
-    uses: zTig3r/workflows/.github/workflows/release_jitpack.yml@master
+    uses: LunatigTV/workflows/.github/workflows/release_jitpack.yml@main
     with:
       prebuild: true

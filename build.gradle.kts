@@ -4,7 +4,7 @@ plugins {
     id("io.freefair.lombok") version "9.0.0"
 }
 
-group = "de.ztiger"
+group = "de.lunatig"
 version = project.findProperty("version") ?: "dev"
 
 repositories {
@@ -36,9 +36,9 @@ publishing {
             version = version.toString()
 
             pom {
-                name.set("Inventory Framework")
-                description.set("A simple inventory framework for Minecraft plugins.")
-                url.set("https://github.com/zTig3r/MiniMessageParser")
+                name.set("Mini Message Parser")
+                description.set("A simple message parser for Minecraft plugins.")
+                url.set("https://github.com/LunatigTV/MiniMessageParser")
                 licenses {
                     license {
                         name.set("The Apache License, Version 2.0")
@@ -47,15 +47,15 @@ publishing {
                 }
                 developers {
                     developer {
-                        id.set("ztiger")
-                        name.set("zTig3r")
-                        url.set("https://github.com/zTig3r/")
+                        id.set("lunatig")
+                        name.set("LunatigTV")
+                        url.set("https://github.com/LunatigTV/")
                     }
                 }
                 scm {
-                    url.set("https://github.com/zTig3r/MiniMessageParser")
-                    connection.set("scm:git:git://github.com/zTig3r/MiniMessageParser.git")
-                    developerConnection.set("scm:git:ssh://git@github.com/zTig3r/MiniMessageParser.git")
+                    url.set("https://github.com/LunatigTV/MiniMessageParser")
+                    connection.set("scm:git:git://github.com/LunatigTV/MiniMessageParser.git")
+                    developerConnection.set("scm:git:ssh://git@github.com/LunatigTV/MiniMessageParser.git")
                 }
             }
         }

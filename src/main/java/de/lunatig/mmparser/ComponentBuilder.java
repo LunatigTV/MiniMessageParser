@@ -1,4 +1,4 @@
-package de.ztiger.mmparser;
+package de.lunatig.mmparser;
 
 import lombok.AllArgsConstructor;
 import net.kyori.adventure.text.Component;
@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import static de.ztiger.mmparser.MMParser.MM;
+import static de.lunatig.mmparser.MMParser.MM;
 
 @AllArgsConstructor
 public class ComponentBuilder {

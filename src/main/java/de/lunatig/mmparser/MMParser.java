@@ -1,4 +1,4 @@
-package de.ztiger.mmparser;
+package de.lunatig.mmparser;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
